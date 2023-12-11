@@ -1,0 +1,1513 @@
+/* Importing Noto Sans */
+
+/*
+  Google Fonts で配布されているCSS(*)を下記に転記し、`src: local(..)` を追記しています
+    - *: https://fonts.googleapis.com/earlyaccess/notosansjapanese.css
+    - 参考 http://qiita.com/sutara79/items/7f0c6365e5935311b1f8
+*/
+
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 100;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Thin.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 200;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-DemiLight.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 900;
+    src: local("Noto Sans JP"),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Black.otf) format('opentype');
+}
+
+/* Override font-family styles */
+
+.btn {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+textarea {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+.rst-versions {
+    font-family: "Noto Sans Japanese", "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+}
+
+markdown-preview h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
+    font-family: "Noto Sans Japanese", "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-weight: 500;
+}
+
+.rst-content .sidebar .sidebar-title {
+    font-family: "Noto Sans Japanese", "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* General styles */
+
+pre code {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+pre {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    margin-bottom: 0.2em;
+}
+
+.rst-content .section ol p,
+.rst-content .section ul p {
+    margin-bottom: 0;
+}
+
+table {
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: underline;
+    color: #404040;
+}
+
+code {
+    color: black;
+    page-break-before: avoid;
+    page-break-inside: avoid;
+}
+
+.wy-grid-for-nav {
+    position: relative;
+}
+
+nav.stickynav {
+    position: relative;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    font-size: 5mm;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 4mm;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 3.3mm;
+    font-weight: 600;
+}
+
+p,
+ul *,
+ol * {
+    font-size: 3.3mm;
+    line-height: 1.8;
+}
+
+ul {
+    list-style: disc;
+}
+
+.wy-table td,
+.rst-content table.docutils td,
+.rst-content table.field-list td,
+.wy-table th,
+.rst-content table.docutils th,
+.rst-content table.field-list th {
+    font-size: 3.3mm;
+    padding: 4px 8px
+}
+
+.rst-content table.docutils td>ul,
+.rst-content table.docutils th>ul {
+    display: inline;
+}
+
+.rst-content table.docutils td>ul li,
+.rst-content table.docutils th>ul li {
+    /* list-style: none; */
+    margin-left: 1.0em;
+    text-indent: -1.2em;
+}
+
+.rst-content table.docutils td>ul li:before,
+.rst-content table.docutils th>ul li:before {
+    /* content: '・'; */
+    content: '・';
+    width: 1em;
+    margin-right: 0.2em;
+}
+
+.wy-table th,
+.rst-content table.docutils th,
+.rst-content table.field-list th {
+    font-size: 3.3mm;
+}
+
+.section2 {
+    page-break-before: always;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.section3 {
+    page-break-inside: avoid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.section4 {
+    page-break-inside: avoid;
+}
+
+/* 監視サーバ情報 - サイト表示確認 */
+#\%E3\%82\%B5\%E3\%82\%A4\%E3\%83\%88\%E8\%A1\%A8\%E7\%A4\%BA\%E7\%A2\%BA\%E8\%AA\%8D img {
+    border: 1px #ccc solid;
+}
+
+/* 監視基本情報 */
+#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%9F\%BA\%E6\%9C\%AC\%E6\%83\%85\%E5\%A0\%B1>.section3 {
+    page-break-before: always;
+}
+
+/* 基本フローチャート */
+.section3#\%E5\%9F\%BA\%E6\%9C\%AC\%E3\%83\%95\%E3\%83\%AD\%E3\%83\%BC\%E3\%83\%81\%E3\%83\%A3\%E3\%83\%BC\%E3\%83\%88 {
+    page-break-before: avoid;
+}
+
+/* アラート項目別サーバ確認手順 */
+#\%E3\%82\%A2\%E3\%83\%A9\%E3\%83\%BC\%E3\%83\%88\%E9\%A0\%85\%E7\%9B\%AE\%E5\%88\%A5\%E3\%82\%B5\%E3\%83\%BC\%E3\%83\%90\%E7\%A2\%BA\%E8\%AA\%8D\%E6\%89\%8B\%E9\%A0\%86>.section3 {
+    page-break-before: always;
+}
+
+.wy-breadcrumbs {
+    display: none;
+}
+
+#\%E7\%9B\%A3\%E8\%A6\%96\%E4\%B8\%80\%E6\%AC\%A1\%E5\%AF\%BE\%E5\%BF\%9C\%E3\%82\%B5\%E3\%83\%BC\%E3\%83\%93\%E3\%82\%B9 {
+    display: none;
+}
+
+/* 「監視項目解説」 */
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* wkhtmltopdf でも折り返しが効くように word-wrap も併記 */
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils td,
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils ul *,
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils th {
+    font-size: 2.4mm;
+}
+
+/* 「監視項目解説」 - 表のそれぞれの列の幅の指定 */
+/*    1番目の列: 監視項目名 */
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils th:nth-child(1),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils td:nth-child(1) {
+    min-width: 25mm;
+    max-width: 25mm;
+}
+
+/*    3番目の列: 監視閾値 */
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils th:nth-child(3),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils td:nth-child(3) {
+    min-width: 40mm;
+    max-width: 40mm;
+}
+
+/*    4番目の列: その他監視設定 */
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils th:nth-child(4),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E8\%A7\%A3\%E8\%AA\%AC>.section4 table.docutils td:nth-child(4) {
+    min-width: 30mm;
+    max-width: 30mm;
+}
+
+/* 「監視項目一覧」 */
+.section2#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E4\%B8\%80\%E8\%A6\%A7>.section3 table.docutils {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* wkhtmltopdf でも折り返しが効くように word-wrap も併記 */
+}
+
+.section2#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E4\%B8\%80\%E8\%A6\%A7>.section3 table.docutils td,
+.section2#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E4\%B8\%80\%E8\%A6\%A7>.section3 table.docutils ul *,
+.section2#\%E7\%9B\%A3\%E8\%A6\%96\%E9\%A0\%85\%E7\%9B\%AE\%E4\%B8\%80\%E8\%A6\%A7>.section3 table.docutils th {
+    font-size: 2.4mm;
+}
+
+/* 「監視項目一覧」 - 表のそれぞれの列の幅の指定 */
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils th:nth-child(1),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils td:nth-child(1) {
+    min-width: 40mm;
+    max-width: 40mm;
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils th:nth-child(2),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils td:nth-child(2) {
+    min-width: 15mm;
+    max-width: 20mm;
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils th:nth-child(3),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils td:nth-child(3) {
+    min-width: 15mm;
+    max-width: 20mm;
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils th:nth-child(4),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils td:nth-child(4) {
+    min-width: 15mm;
+    max-width: 20mm;
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils th:nth-child(5),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E5\%AF\%BE\%E8\%B1\%A1\%E3\%83\%9B\%E3\%82\%B9\%E3\%83\%88 table.docutils td:nth-child(5) {
+    width: 100%;
+    /* 5番目の列「その他」は、表の残りの幅を全部使い切らせる */
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E3\%82\%92\%E8\%A1\%8C\%E3\%81\%86\%E6\%99\%82\%E9\%96\%93\%E5\%B8\%AF\%E3\%81\%AE\%E8\%A8\%AD\%E5\%AE\%9A\%E4\%B8\%80\%E8\%A6\%A7 table.docutils {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* wkhtmltopdf でも折り返しが効くように word-wrap も併記 */
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E3\%82\%92\%E8\%A1\%8C\%E3\%81\%86\%E6\%99\%82\%E9\%96\%93\%E5\%B8\%AF\%E3\%81\%AE\%E8\%A8\%AD\%E5\%AE\%9A\%E4\%B8\%80\%E8\%A6\%A7 table.docutils th:nth-child(1),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E3\%82\%92\%E8\%A1\%8C\%E3\%81\%86\%E6\%99\%82\%E9\%96\%93\%E5\%B8\%AF\%E3\%81\%AE\%E8\%A8\%AD\%E5\%AE\%9A\%E4\%B8\%80\%E8\%A6\%A7 table.docutils td:nth-child(1) {
+    min-width: 60mm;
+    max-width: 60mm;
+}
+
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E3\%82\%92\%E8\%A1\%8C\%E3\%81\%86\%E6\%99\%82\%E9\%96\%93\%E5\%B8\%AF\%E3\%81\%AE\%E8\%A8\%AD\%E5\%AE\%9A\%E4\%B8\%80\%E8\%A6\%A7 table.docutils th:nth-child(2),
+.section3#\%E7\%9B\%A3\%E8\%A6\%96\%E3\%82\%92\%E8\%A1\%8C\%E3\%81\%86\%E6\%99\%82\%E9\%96\%93\%E5\%B8\%AF\%E3\%81\%AE\%E8\%A8\%AD\%E5\%AE\%9A\%E4\%B8\%80\%E8\%A6\%A7 table.docutils td:nth-child(2) {
+    width: 100%;
+}
+
+
+/* Page: header */
+
+
+.print_header {
+    width: 100%;
+}
+
+.print_header td,
+.print_header th {
+    border: none !important;
+}
+
+.header_cell {
+    font-size: 3.5mm;
+    font-weight: 200;
+    color: #999;
+}
+
+.project {
+    border-left: 0.5em;
+    border-right: 0.5em;
+    background-color: #999999;
+}
+
+/* {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        margin: 0;
+        color: #24292f;
+        background-color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+    } */
+
+.octicon {
+    display: inline-block;
+    fill: currentColor;
+    vertical-align: text-bottom;
+}
+
+p .blue {
+    color: #0969da;
+}
+
+h1:hover .anchor .octicon-link:before,
+h2:hover .anchor .octicon-link:before,
+h3:hover .anchor .octicon-link:before,
+h4:hover .anchor .octicon-link:before,
+h5:hover .anchor .octicon-link:before,
+h6:hover .anchor .octicon-link:before {
+    width: 16px;
+    height: 16px;
+    content: ' ';
+    display: inline-block;
+    background-color: currentColor;
+    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+details,
+figcaption,
+figure {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+a {
+    background-color: transparent;
+    color: #0969da;
+    text-decoration: none;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline dotted;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    margin: .67em 0;
+    font-weight: 600;
+    padding-bottom: .3em;
+    font-size: 2em;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+mark {
+    background-color: #fff8c5;
+    color: #24292f;
+}
+
+small {
+    font-size: 90%;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: #ffffff;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    overflow: hidden;
+    background: transparent;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #d0d7de;
+    border: 0;
+}
+
+input {
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .54;
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: #6e7781;
+    opacity: 1;
+}
+
+hr::before {
+    display: table;
+    content: "";
+}
+
+hr::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+}
+
+td,
+th {
+    padding: 0;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details:not([open])>*:not(summary) {
+    display: none !important;
+}
+
+a:focus,
+[role=button]:focus,
+input[type=radio]:focus,
+input[type=checkbox]:focus {
+    outline: 2px solid #0969da;
+    outline-offset: -2px;
+    box-shadow: none;
+}
+
+a:focus:not(:focus-visible),
+[role=button]:focus:not(:focus-visible),
+input[type=radio]:focus:not(:focus-visible),
+input[type=checkbox]:focus:not(:focus-visible) {
+    outline: solid 1px transparent;
+}
+
+a:focus-visible,
+[role=button]:focus-visible,
+input[type=radio]:focus-visible,
+input[type=checkbox]:focus-visible {
+    outline: 2px solid #0969da;
+    outline-offset: -2px;
+    box-shadow: none;
+}
+
+a:not([class]):focus,
+a:not([class]):focus-visible,
+input[type=radio]:focus,
+input[type=radio]:focus-visible,
+input[type=checkbox]:focus,
+input[type=checkbox]:focus-visible {
+    outline-offset: 0;
+}
+
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font: 11px ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    line-height: 10px;
+    color: #24292f;
+    vertical-align: middle;
+    background-color: #f6f8fa;
+    border: solid 1px rgba(175, 184, 193, 0.2);
+    border-bottom-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 rgba(175, 184, 193, 0.2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+h2 {
+    font-weight: 600;
+    padding-bottom: .3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1em;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: .875em;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: .85em;
+    color: #57606a;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin: 0;
+    padding: 0 1em;
+    color: #57606a;
+    border-left: .25em solid #d0d7de;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 2em;
+}
+
+ol ol,
+ul ol {
+    list-style-type: lower-roman;
+}
+
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+dd {
+    margin-left: 0;
+}
+
+tt,
+code,
+samp {
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    font-size: 12px;
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+    font-size: 12px;
+    word-wrap: normal;
+}
+
+.octicon {
+    display: inline-block;
+    overflow: visible !important;
+    vertical-align: text-bottom;
+    fill: currentColor;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.markdown-body::before {
+    display: table;
+    content: "";
+}
+
+.markdown-body::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.markdown-body>*:first-child {
+    margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+
+.absent {
+    color: #cf222e;
+}
+
+.anchor {
+    float: left;
+    padding-right: 4px;
+    margin-left: -20px;
+    line-height: 1;
+}
+
+.anchor:focus {
+    outline: none;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre,
+details {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+blockquote>:first-child {
+    margin-top: 0;
+}
+
+blockquote>:last-child {
+    margin-bottom: 0;
+}
+
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+    color: #24292f;
+    vertical-align: middle;
+    visibility: hidden;
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+    text-decoration: none;
+}
+
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+    visibility: visible;
+}
+
+h1 tt,
+h1 code,
+h2 tt,
+h2 code,
+h3 tt,
+h3 code,
+h4 tt,
+h4 code,
+h5 tt,
+h5 code,
+h6 tt,
+h6 code {
+    padding: 0 .2em;
+    font-size: inherit;
+}
+
+summary h1,
+summary h2,
+summary h3,
+summary h4,
+summary h5,
+summary h6 {
+    display: inline-block;
+}
+
+summary h1 .anchor,
+summary h2 .anchor,
+summary h3 .anchor,
+summary h4 .anchor,
+summary h5 .anchor,
+summary h6 .anchor {
+    margin-left: -40px;
+}
+
+summary h1,
+summary h2 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+ul.no-list,
+ol.no-list {
+    padding: 0;
+    /* list-style-type: none; */
+}
+
+ol[type=a] {
+    list-style-type: lower-alpha;
+}
+
+ol[type=A] {
+    list-style-type: upper-alpha;
+}
+
+ol[type=i] {
+    list-style-type: lower-roman;
+}
+
+ol[type=I] {
+    list-style-type: upper-roman;
+}
+
+ol[type="1"] {
+    list-style-type: decimal;
+}
+
+div>ol:not([type]) {
+    list-style-type: decimal;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li>p {
+    margin-top: 16px;
+}
+
+li+li {
+    margin-top: .25em;
+}
+
+dl {
+    padding: 0;
+}
+
+dl dt {
+    padding: 0;
+    margin-top: 16px;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 600;
+}
+
+dl dd {
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+table th {
+    font-weight: 600;
+}
+
+table th,
+table td {
+    padding: 6px 13px;
+    border: 1px solid #d0d7de;
+}
+
+table tr {
+    background-color: #ffffff;
+    border-top: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+table tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+table img {
+    background-color: transparent;
+}
+
+img[align=right] {
+    padding-left: 20px;
+}
+
+img[align=left] {
+    padding-right: 20px;
+}
+
+.emoji {
+    max-width: none;
+    vertical-align: text-top;
+    background-color: transparent;
+}
+
+span.frame {
+    display: block;
+    overflow: hidden;
+}
+
+span.frame>span {
+    display: block;
+    float: left;
+    width: auto;
+    padding: 7px;
+    margin: 13px 0 0;
+    overflow: hidden;
+    border: 1px solid #d0d7de;
+}
+
+span.frame span img {
+    display: block;
+    float: left;
+}
+
+span.frame span span {
+    display: block;
+    padding: 5px 0 0;
+    clear: both;
+    color: #24292f;
+}
+
+span.align-center {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+span.align-center>span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+span.align-center span img {
+    margin: 0 auto;
+    text-align: center;
+}
+
+span.align-right {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+span.align-right>span {
+    display: block;
+    margin: 13px 0 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+span.align-right span img {
+    margin: 0;
+    text-align: right;
+}
+
+span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+}
+
+span.float-left span {
+    margin: 13px 0 0;
+}
+
+span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+}
+
+span.float-right>span {
+    display: block;
+    margin: 13px auto 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+code,
+tt {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+}
+
+code br,
+tt br {
+    display: none;
+}
+
+del code {
+    text-decoration: inherit;
+}
+
+samp {
+    font-size: 85%;
+}
+
+pre code {
+    font-size: 100%;
+}
+
+pre>code {
+    padding: 0;
+    margin: 0;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+}
+
+.highlight {
+    margin-bottom: 16px;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+}
+
+.highlight pre,
+pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+}
+
+pre code,
+pre tt {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+}
+
+.csv-data td,
+.csv-data th {
+    padding: 5px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.csv-data .blob-num {
+    padding: 10px 8px 9px;
+    text-align: right;
+    background: #ffffff;
+    border: 0;
+}
+
+.csv-data tr {
+    border-top: 0;
+}
+
+.csv-data th {
+    font-weight: 600;
+    background: #f6f8fa;
+    border-top: 0;
+}
+
+[data-footnote-ref]::before {
+    content: "[";
+}
+
+[data-footnote-ref]::after {
+    content: "]";
+}
+
+.footnotes {
+    font-size: 12px;
+    color: #57606a;
+    border-top: 1px solid #d0d7de;
+}
+
+.footnotes ol {
+    padding-left: 16px;
+}
+
+.footnotes ol ul {
+    display: inline-block;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+
+.footnotes li {
+    position: relative;
+}
+
+.footnotes li:target::before {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -24px;
+    pointer-events: none;
+    content: "";
+    border: 2px solid #0969da;
+    border-radius: 6px;
+}
+
+.footnotes li:target {
+    color: #24292f;
+}
+
+.footnotes .data-footnote-backref g-emoji {
+    font-family: monospace;
+}
+
+.pl-c {
+    color: #6e7781;
+}
+
+.pl-c1,
+.pl-s .pl-v {
+    color: #0550ae;
+}
+
+.pl-e,
+.pl-en {
+    color: #8250df;
+}
+
+.pl-smi,
+.pl-s .pl-s1 {
+    color: #24292f;
+}
+
+.pl-ent {
+    color: #116329;
+}
+
+.pl-k {
+    color: #cf222e;
+}
+
+.pl-s,
+.pl-pds,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sre,
+.pl-sr .pl-sra {
+    color: #0a3069;
+}
+
+.pl-v,
+.pl-smw {
+    color: #953800;
+}
+
+.pl-bu {
+    color: #82071e;
+}
+
+.pl-ii {
+    color: #f6f8fa;
+    background-color: #82071e;
+}
+
+.pl-c2 {
+    color: #f6f8fa;
+    background-color: #cf222e;
+}
+
+.pl-sr .pl-cce {
+    font-weight: bold;
+    color: #116329;
+}
+
+.pl-ml {
+    color: #3b2300;
+}
+
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+    font-weight: bold;
+    color: #0550ae;
+}
+
+.pl-mi {
+    font-style: italic;
+    color: #24292f;
+}
+
+.pl-mb {
+    font-weight: bold;
+    color: #24292f;
+}
+
+.pl-md {
+    color: #82071e;
+    background-color: #ffebe9;
+}
+
+.pl-mi1 {
+    color: #116329;
+    background-color: #dafbe1;
+}
+
+.pl-mc {
+    color: #953800;
+    background-color: #ffd8b5;
+}
+
+.pl-mi2 {
+    color: #eaeef2;
+    background-color: #0550ae;
+}
+
+.pl-mdr {
+    font-weight: bold;
+    color: #8250df;
+}
+
+.pl-ba {
+    color: #57606a;
+}
+
+.pl-sg {
+    color: #8c959f;
+}
+
+.pl-corl {
+    text-decoration: underline;
+    color: #0a3069;
+}
+
+g-emoji {
+    display: inline-block;
+    min-width: 1ch;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1em;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: -0.075em;
+}
+
+g-emoji img {
+    width: 1em;
+    height: 1em;
+}
+
+.task-list-item label {
+    font-weight: 400;
+}
+
+.task-list-item.enabled label {
+    cursor: pointer;
+}
+
+.task-list-item+.task-list-item {
+    margin-top: 4px;
+}
+
+.task-list-item .handle {
+    display: none;
+}
+
+.task-list-item-checkbox {
+    margin: 0 .2em .25em -1.4em;
+    vertical-align: middle;
+}
+
+.contains-task-list:dir(rtl) .task-list-item-checkbox {
+    margin: 0 -1.6em .25em .2em;
+}
+
+.contains-task-list {
+    position: relative;
+}
+
+.contains-task-list:hover .task-list-item-convert-container,
+.contains-task-list:focus-within .task-list-item-convert-container {
+    display: block;
+    width: auto;
+    height: 24px;
+    overflow: visible;
+    clip: auto;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(50%);
+}
+
+body {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+}
+
+h3 {
+    counter-reset: h4;
+}
+
+h4 {
+    counter-reset: h5;
+}
+
+h5 {
+    counter-reset: h6;
+}
+
+article h2:before {
+    content: counter(h2, decimal) ". ";
+    counter-increment: h2;
+}
+
+article h3:before {
+    content: counter(h2, decimal) "." counter(h3, decimal) ". ";
+    counter-increment: h3;
+}
+
+article h4:before {
+    content: counter(h2, decimal) "." counter(h3, decimal) "." counter(h4, decimal) ". ";
+    counter-increment: h4;
+}
+
+article h5:before {
+    content: counter(h2, decimal) "." counter(h3, decimal) "." counter(h4, decimal) "." counter(h5, decimal) ". ";
+    counter-increment: h5;
+}
+
+article h6:before {
+    content: counter(h2, decimal) "." counter(h3, decimal) "." counter(h4, decimal) "." counter(h5, decimal) "." counter(h6, decimal) ". ";
+    counter-increment: h6;
+}
+
+h2.nocount:before,
+h3.nocount:before,
+h4.nocount:before,
+h5.nocount:before,
+h6.nocount:before {
+    content: "";
+    counter-increment: none;
+}
+
+/* Page: footer */
+
+@media print {
+    .print_footer {
+        width: 100%;
+    }
+
+    .print_footer td,
+    .print_footer th {
+        border: none !important;
+    }
+
+    .footer_cell {
+        text-align: center;
+        border-style: none;
+        font-size: 3.5mm;
+        font-weight: 200;
+    }
+}
+
+/* Page: Cover */
+
+@media print {
+    .cover {
+        font-weight: 700;
+        font-size: 300%;
+        height: 100%;
+        margin-top: 5em;
+    }
+
+    .cover_title {
+        margin-top: 0.4em;
+        margin-bottom: 0.4em;
+    }
+}

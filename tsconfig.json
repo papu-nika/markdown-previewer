@@ -1,0 +1,35 @@
+{
+  "include": [
+    "remix.env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "app/routes/*.tsx",
+    "app/routes/*.ts",
+    "/root/ghq/github.com/papu-nika/remix-test/node_modules/@pondorasti/remark-img-links/index.js",
+    "/root/ghq/github.com/papu-nika/remix-test/node_modules/remark-change-image-paths/index.js"],
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2022"
+    ],
+    "module": "es2022",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./app/*"
+      ]
+    },
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  }
+}
